@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.tsuziea.odinextra.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "AvatarRendererMixin",
+    "CameraMixin",
+    "ChestRendererMixin",
+    "EnderDragonRendererMixin",
+    "LivingEntityRendererMixin",
+    "MinecraftAccessor",
+    "MinecraftMixin",
+    "MouseHandlerMixin",
+    "OptionInstanceAccessor",
+    "StringDecomposerMixin",
+    "firmament.ModAnnouncerMixin",
+    "odin.MapRoomMixin",
+    "odin.ModuleManagerMixin",
+    "xray.BlockModelRendererMixin",
+    "xray.ItemBlockRenderTypesMixin",
+    "xray.indigo.AbstractTerrainRenderContextMixin",
+    "xray.sodium.BlockRendererMixin"
+  ]
+}
